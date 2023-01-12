@@ -1,0 +1,654 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+}
+a{text-decoration: none;}
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+/**********
+ * header code start here
+ * ************/
+ #header{
+ 	width: 100%;
+ }
+ .topheader{
+ 	background-color:#eaefff;
+ 	padding: 10px 0px;
+ }
+ .top-left{
+ 	text-align: left;
+ }
+ .top-left span{
+    color: #fe5c24;
+    margin-right: 20px;
+    font-size: 14px;
+ }
+ .top-left a{
+ 	color: #0c3e72;
+    margin: 15px;
+    font-size: 14px;
+}
+.top-left a:hover{
+	color:#fe5c24 ;
+}
+ .top-right{
+ 	text-align: right;
+ }
+ .top-right ul li{
+ 	list-style: none;
+ 	display: inline-block;
+ }
+ .top-right ul li a{
+ 	color:#0c3e72 ;
+ 	font-size: 14px;
+ 	margin-right: 20px;
+
+ }
+ .top-right ul li a:hover{
+   color:#fe5c24 ;
+ }
+ .top-right span{
+    color:#0c3e72 ;
+   font-size: 14px;
+   margin-left: 32px;
+ }
+ .top-right span i{
+   color:#fe5c24 ;
+   margin-right:12px;
+ }
+ /********
+  * main manu css
+  * *******/
+  .nav-link{
+       color: #0c3e72 !important;
+    font-size: 16px;
+    padding: 38px 22px;
+    font-family: "Open Sans",sans-serif;
+    text-transform: capitalize;
+  }
+  .nav-link a:hover{
+   color: #fff;
+   background-color:#fe5c24 ;
+  }
+  .nav-item{
+   margin: 0px 16px;
+  }
+.booknow-btn{
+    padding: 13px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #fe5c24;
+    font-weight: 500;
+}
+.booknow-btn:hover{
+   color: #fff;
+   background-color:#2493e0;
+}
+/*********
+ * banner section code here
+ * *********/
+ #banner-sec{
+   background-image: url(../img/martin.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   
+ }
+ .banner-contant{
+   text-align: center !important;
+   height: 100vh;
+   
+ }
+.banner-contant h1{
+   font-size: 120px;
+   
+   text-transform: capitalize;
+   color: #fff;
+   font-weight: 700;
+   margin-bottom: 22px;
+}
+.banner-contant p{
+   font-size: 24px;
+   color: #fff;
+}
+ .banner-btn{
+   padding: 23px 79px;
+    font-size: 16px;
+    color: #fff;
+    background-color:#2493e0 ;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 32PX;
+}
+.banner-btn:hover{
+   background-color:#fe5c24;
+   color: #fff;
+}
+/*********
+ * search section code here
+ * *********/
+#search{
+   width: 100% ;
+}
+.search-box {
+ margin-top: -100px;
+ background-color: white;
+}
+.tab-opption{
+ padding:0px 40px;
+}
+ 
+.tab-opption ul li{
+ list-style: none;
+ display: inline-block;
+ margin-right:2rem ;
+ padding:  40px 0px;
+ position: relative;
+}
+.tab-opption ul li:hover{
+  cursor: pointer;
+}
+.tab-opption ul li .line{
+   width: 100%;
+   height: 3px;
+   background: RED;
+   color: red;
+   display: block;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+}
+.tab-content{
+   padding: 40px 20px;
+   box-shadow: 0 10px 40px 0 rgb(221 221 221 / 30%);
+}
+.tab-content form{
+  display: flex;
+  justify-content: space-evenly;
+ }
+ .tab-content ul li{
+   padding: 40px 0px;
+ }
+
+ .from-div{
+ flex-basis: 18%;
+ position: relative;
+ }
+ .from-div i{
+position: absolute;
+right:10px ;
+top: 50%;
+transform: translateY(-50%);
+ }
+ .from-field{
+   padding: 16px;
+   width: 100%;
+
+ }
+ .tab-content-btn{
+   padding: 13px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #fe5c24;
+    font-weight: 500;
+    border: none;
+ }
+ /**********
+  * place section css code 
+  * **********/
+  #place{
+   width: 100%;
+   padding: 100px 0px;
+  }
+  .sec-title{
+   font-size: 44px;
+   color: #0c3e72;
+   line-height: 1.1;
+   font-weight: 700;
+   position: relative;
+   margin-bottom: 26px;
+  }
+.sec-subtitle{
+   color: #777;
+  }
+#place .place-item{
+   position: relative;
+   transition: 0.5S;
+  }
+#place .place-item::before{
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   bottom: 0;
+   left: 0;
+   background-color: red;
+   opacity: 0;
+}
+#place .place-item:hover{
+   opacity:0.7;
+   transition: 0.5S;
+}
+.cetagory{
+   display: inline-block;
+   padding: 10px 25px;
+   color: #fff;
+   background-color: #fe5c24;
+   text-transform: capitalize;
+   margin-bottom: 14px;
+}
+.img-overlay h3{
+   font-size: 30px;
+   line-height: 36px;
+   color: #fff;
+   margin-bottom: 0;
+}
+.img-overlay p{
+  color: #fff;
+ }
+#place .place-item .review i{
+   color: #fe5c24;
+}
+#place .place-item .review span{
+   color: white;
+}
+.img-overlay{
+   position:absolute;
+   bottom: 20px;
+   left: 20px;
+   opacity: 0;
+}
+#place .place-item:hover .img-overlay{
+   opacity: 1;
+   transition: 0.5s;
+   transform: translateY(-15px);
+} 
+.dis-btn {
+   display: inline-block;
+    padding: 13px 28px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #fe5c24;
+    font-weight: 500;
+    margin-top: 30PX;
+}
+.dis-btn:hover{
+   color: #fff;
+   background-color:#2493e0;
+}
+/********
+ * event section code here
+ * *********/
+ #event{
+   width: 100%;
+   padding: 100px 0px;
+   background-image: url(../img/bg.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+.event-box{
+   background-color: white;
+   padding: 60px;
+}
+.semi-title{
+   color: #fe5c24;
+   margin-bottom: 18px;
+   font-size: 16px;
+   line-height: 1.2rem;
+}
+.e-title{
+   font-weight: 700;
+   margin-bottom: 25px;
+   color:#0c3e72;
+   line-height: 1.2rem;
+   font-size: 30px;
+}
+.e-decs{
+   color: #a2a2a2;
+   font-size: 16px;
+   line-height: 28px;
+}
+.event-box p{
+   color: #a2a2a2;
+   font-size: 16px;
+   line-height: 28px;
+}
+.event-box p span{
+   color: #0c3e72 !important;
+
+}
+.review span{
+   color: #a2a2a2 !important;
+   font-size: 16px;
+   line-height: 28px;
+}
+.review i{
+ color: #ffc962;
+}
+/*****
+ * owl carosol costom css
+ * ******/
+ .owl-dot{
+   display: none !important;
+ }
+ .owl-prev{
+   color:#fe5c24 !important;
+    font-size: 30px !important;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background: rgba(255,255,255,0.6) !important;
+    text-align: center !important;
+    line-height: 60px;
+    border-radius: 100% !important;
+    left: -95%;
+    top: 50%;
+    font-weight: 700;
+    transform: translateY(-50%);
+   
+ }
+ .owl-next {
+    color:#fe5c24 !important;
+    font-size: 30px !important;
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background: rgba(255,255,255,0.6) !important;
+    text-align: center !important;
+    line-height: 60px;
+    border-radius: 100% !important;
+    right:-13%;
+    top: 50%;
+    font-weight: 700;
+    transform: translateY(-50%);
+ }
+ #hotel{
+   width: 100%;
+   padding: 100px 0px;
+ }
+ .hotel-img{
+   position: relative;
+ }
+ .links ul li{
+   list-style: none;
+ }
+ .links ul li a i{
+   height: 40px;
+   width: 40px;
+   background: #ff7a4bb3;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 100px;
+   margin-bottom: 10px;
+   color: white;
+}
+.links ul li a i.last{
+   height: 50px !important;
+   width: 50px !important;
+   background: rgba(255,255,255, 0.5)!important;
+   text-align: center;
+   line-height: 50px !important;
+   border-radius: 100px;
+   color: white;
+   
+}
+.links{
+   position: absolute;
+   bottom: 24px;
+   right: 40px;
+}
+.g-icon{
+   transform: scaleY(0);
+   transition: 0.5s;
+}
+.links:hover .g-icon{
+   transform: scaleY(1);
+   transition: 0.5s;
+}
+.share-icon{
+   transform: scaleX(1);
+   transition: 0.5s;
+}
+.links:hover .share-icon{
+   transform: scaleX(0);
+   transition: 0.5s;
+}
+/*.descive review*/
+.desreview{
+  padding: 8px 0px;
+  border-bottom: 1px solid #ced8e3;
+}
+.desreview h3{
+   color: #0c3e72;
+   font-size: 24px;
+   padding: 30px 0px;
+}
+.reviews i{
+   color:#ffc962;
+}
+.desreview p{
+   color: #a2a2a2;
+   line-height: 28px;
+   font-size: 17px;
+   margin-top: 8px;
+}
+.desreview h5{
+   color:#0c3e72;
+   font-size: 16px;
+}
+.desreview h5 span{
+   color: #fe5c24 !important;
+}
+/**********
+ * slider-2 css code here
+ * *********/
+ #slide-2{
+   width: 100%;
+   padding: 50px 0px;
+   background-color: #0c3e72 !important;
+   height: 100%;
+ }
+ .say h3{
+  font-size:46px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 26px;
+  position: relative;
+ }
+ .slider-item{
+   background-color:#0e477d;
+   padding: 30px;
+   margin: 100px 0px;
+ }
+ 
+ .p-review ul li{
+ display: inline-block;
+ list-style: none;
+ color:#ffc962 ;
+
+ }
+ .slider-item p{
+  color: white;
+  margin: 25px 0px;
+ }
+ .slider-item {
+   color: white;
+   font-size: 16px;
+ }
+ .theree-item{
+   display: flex;
+   justify-content: space-evenly;
+ }
+ 
+  /**********
+  * owl carosol 2nd slider
+  * **********/
+   #slider-2 .owl-next{
+   position: absolute;
+    top: -24px;
+    right: 0;
+    }
+    #slider-2 .owl-prev{
+      position: absolute;
+          top: -22px;
+    left: 972px;
+    }
+
+  /**********
+  * oservice-offer section code here
+  * **********/
+  #service-off{
+   width: 100px;
+   padding: 100px 0px;
+  }
+  #service-off .container{
+   width: 1140px;
+  }
+  #service-off .ser3{
+    font-size: 44px;
+    color: #0c3e72;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 26px;
+  }
+  #service-off .serp{
+   color: #777;
+    font-weight: 400;
+  }
+  .offer-ser{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+  }
+  .prooff {
+   flex-basis: 25%;
+  }
+  .prooff img{
+   margin-bottom: 30px;
+  }
+  .prooff h4{
+       font-size: 24px;
+    color: #0c3e72;
+    margin-bottom: 20px;
+  }
+  .prooff p{
+   margin-bottom: 1rem;
+  }
+  /************
+   * footer section code strat from here
+   * ***************/
+   #footter{
+      background-color:#162b45;
+      width: 100%;
+      padding: 130px 0px;
+   }
+   .foottheree{
+      display: flex;
+      justify-content:space-evenly;
+   }
+   /*footlink css code*/
+   .footlink h3{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+   }
+   .linkf{
+      display: flex;
+      justify-content: space-evenly;
+
+   }
+   .footleft ul li{
+      list-style: none;
+   }
+   .footleft ul li a{
+      color: #fff;
+      font-size: 15px;
+      display: inline-block;
+      margin-bottom: 10px;
+   }
+   /*footmail css code here*/
+   .footmail h3{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+   }
+   .footinput input{
+    height: 50px;
+    border: none;
+    width: 67%!important;
+    font-weight: 400;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 13px;
+    color: #999;
+    background-color: #092742;
+    
+   }
+   .footinput input:hover{
+      border: none;
+   }
+   .footinput i{
+    background-color: #fe5c24;
+    color: #fff;
+    
+    padding: 14px 23px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    
+
+   }
+   .footmail p{
+    color: #fff;
+    line-height: 1.8;
+    margin-top: 16px;
+   }
+   .conphone{
+
+   }
+   .conphone h3{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+   }
+   .conphone p{
+    margin-bottom: 22px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.8;
+   }
+   .conphone span{
+      color: #fe5c24;
+   }
+   .socialid{
+      margin-top: 20px;
+   }
+   .socialid ul li{
+      list-style: none;
+      display: inline-block;
+      
+   }
+   .socialid ul li a i{
+      background-color: transparent;
+      color: #fff;
+      font-size: 20px;
+      padding: 12px;
+   }
+   .socialid ul li a i:hover{
+      color: #fe5c24;
+   }
